@@ -1,18 +1,18 @@
 from typing import List
 
 def twoSum(nums: List[int], target: int) -> List[int]:
-    num_dict = {}
-    
+
+    dictionary = {}
+
     for i, num in enumerate(nums):
-        complement = target - num
-        
-        if complement in num_dict:
-            return [num_dict[complement], i]
+        dictionary[num] = i
 
-        num_dict[num] = i
-        
-    return []
+    for i, num in enumerate(nums):
+        answer = target - num
 
+        if answer in dictionary and dictionary[answer] != i:
+            return [i, dictionary[answer]]
+        
 # Test cases
 
 nums = [2, 7, 11, 15]

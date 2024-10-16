@@ -20,12 +20,12 @@ target = 9
 print(f"Input: nums = {nums}, target = {target}")
 print(f"Output: {twoSum(nums, target)}")
 
-nums = [3, 2, 4]
-target = 6
-print(f"Input: nums = {nums}, target = {target}")
-print(f"Output: {twoSum(nums, target)}")
+# nums = [3, 2, 4]
+# target = 6
+# print(f"Input: nums = {nums}, target = {target}")
+# print(f"Output: {twoSum(nums, target)}")
 
-nums = [3, 3]
-target = 6
-print(f"Input: nums = {nums}, target = {target}")
-print(f"Output: {twoSum(nums, target)}")
+# nums = [3, 3]
+# target = 6
+# print(f"Input: nums = {nums}, target = {target}")
+# print(f"Output: {twoSum(nums, target)}")
